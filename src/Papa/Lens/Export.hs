@@ -4,5 +4,5 @@ module Papa.Lens.Export(
   module P
 ) where
 
-import Control.Lens as P
+import Control.Lens as P hiding ((.>), (<.), (<.>))
 
